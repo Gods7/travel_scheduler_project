@@ -1,0 +1,114 @@
+/* ===== Full Page Background ===== */
+.stApp {
+    background: #f5f9ff; /* Pale Blue for a calm, clean feel */
+    color: #2d2d2d;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== Page Container ===== */
+.block-container {
+    padding-top: 30px !important;
+    margin-top: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* ===== Sidebar ===== */
+section[data-testid="stSidebar"] {
+    background: #e7f0fa; /* slightly darker blue to contrast main background */
+    color: #2d2d2d;
+    border-right: 1px solid #d0dae4;
+}
+
+/* Sidebar title & labels */
+section[data-testid="stSidebar"] .css-1d391kg,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] label {
+    color: #1d3557 !important; /* dark muted blue */
+    font-weight: 600;
+}
+
+/* ===== Sidebar Radio Buttons ===== */
+.stRadio > label {
+    color: #1d3557 !important;
+    font-weight: 500;
+}
+.stRadio div[role="radiogroup"] label {
+    color: #1d3557 !important;
+    padding: 5px 8px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+/* Selected option */
+.stRadio div[role="radiogroup"] input:checked + div {
+    background: #dbe7f3 !important; /* light blue highlight */
+    color: #0b2545 !important;
+    font-weight: 700 !important;
+}
+
+/* Hover effect */
+.stRadio div[role="radiogroup"] label:hover {
+    background: #edf3fa;
+    cursor: pointer;
+}
+
+/* ===== Headers ===== */
+h1, h2, h3 {
+    color: #1d3557 !important; /* deep blue heading */
+    font-weight: 700 !important;
+    text-align: center !important;
+    margin: 20px auto 15px auto !important;
+    padding: 8px 16px !important;
+    width: fit-content !important;
+    font-size: 1.5rem !important;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.04);
+}
+
+/* ===== Buttons ===== */
+.stButton button {
+    background: #4a90e2; /* blue button matching the theme */
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    padding: 0.5em 1em;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.stButton button:hover {
+    background: #357abd;
+    transform: scale(1.03);
+}
+
+/* ===== Input Fields ===== */
+.stTextInput > div > div > input,
+.stTextArea textarea,
+.stDateInput input,
+.stSelectbox div[data-baseweb="select"] {
+    border-radius: 6px;
+    border: 1px solid #cbd5e0;
+    padding: 0.4em;
+    background: #ffffff;
+    color: #2d2d2d;
+}
+
+/* Hover / Focus effect */
+.stTextInput > div > div > input:focus,
+.stTextArea textarea:focus,
+.stDateInput input:focus,
+.stSelectbox div[data-baseweb="select"]:focus {
+    border: 1px solid #4a90e2;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.3);
+    outline: none;
+}
+
+/* ===== Info Cards ===== */
+.info-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 8px 0px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.06);
+}
