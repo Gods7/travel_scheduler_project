@@ -1,0 +1,7 @@
+streamlit==1.38.0
+python-dotenv==1.0.1
+requests==2.32.3
+pymongo==4.10.1
+python-dateutil==2.9.0.post0
+phi==0.3.46
+typing-extensions==4.12.2

@@ -3,3 +3,4 @@ __pycache__/
 .env
 travel_scheduler/apicheck.py
 travel_scheduler/tests.py
+venv
